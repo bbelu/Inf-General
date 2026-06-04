@@ -32,5 +32,5 @@ if (hora >= 6 && hora < 12) {
     saludo.innerText = '¡Buenas noches!';
   
 }
-
+    
 
