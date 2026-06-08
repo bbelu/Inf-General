@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 8</title>
+    <link rel="stylesheet" href="ccs/estilos.css">
+</head>
+<body id="contenedor">
+    <h1>Practica 25</h1>
+        <p>Esta es la practica 25</p>
+        <fieldset>
+            <form action="#" method="get">
+                
+
+                <label for="nombre">¿Cual es su nombre?</label>
+               <input type="text" name="nombre" id="nombre" required><br>
+
+                
+                <label for="edad">¿Cual es su edad?</label>
+                <input type="number" name="edad" id="edad" required><br>
+
+                
+                <label for="genero">Género de serie:</label>
+                <select id="genero" name="genero" required> 
+                <option value="comedia">Comedia</option>
+                <option value="accion">Acción</option>
+                <option value="romance">Romance</option>
+                <option value="terror">Terror</option>
+                </select> <br>
+
+
+                <button type="button" onclick="serieSugerida()">Sugerir</button>
+            </form>
+         </fieldset>
+    <p id="sugerido"><strong>Serie sugerida</strong></p>
+<script src="js/scrip.js"></script>
+</body>
+</html>
