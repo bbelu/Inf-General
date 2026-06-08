@@ -1,5 +1,5 @@
-function mayorCantidad (){
 
+function mayorCantidad (){
 
 let aula001 = Number(document.querySelector("#aula001").value);
 let aula101 = Number(document.querySelector("#aula101").value);
