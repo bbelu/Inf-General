@@ -1,8 +1,10 @@
-let numero = document.querySelector("#numero").value
-let descuento = document.querySelector('#descuento').value
-let total = (numero * descuento / 100)
-let resultado = document.querySelector  ('h2')
-    resultado.innerText= 'TOTAL: '+ total
+function calcularDescuento (){
 
+let precio = Number(document.querySelector("#precio").value);
+let descuento = Number(document.querySelector('#descuento').value);
 
+let valorDescuento = (precio * descuento) / 100 
+let valorTotal = document.querySelector('h2')
+valorTotal.innerText= 'TOTAL: $' + valorDescuento
 
+}
