@@ -1,0 +1,107 @@
+/* Reseteo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fcf8f2;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Encabezado */
+header {
+    background-color: #4a1525; /* Tono vino */
+    color: #f3e5ab; /* Tono crema/dorado */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #d4af37;
+}
+
+header h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+/* Contenedor Principal */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor-ejercicio {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #e6ccb2;
+}
+
+.contenedor-ejercicio h2 {
+    color: #4a1525;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.contenedor-ejercicio p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.aclaracion {
+    font-size: 13px !important;
+    font-style: italic;
+    color: #9e2a2b !important;
+    margin-bottom: 25px !important;
+}
+
+/* Botón de Pedidos (Conceptos de Eventos) */
+#btn-comenzar {
+    background-color: #9e2a2b;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#btn-comenzar:hover {
+    background-color: #4a1525;
+}
+
+/* Caja de resultados */
+#resultado {
+    margin-top: 25px;
+    text-align: left;
+    border-top: 2px dashed #e6ccb2;
+    padding-top: 20px;
+}
+
+#resultado h3 {
+    color: #4a1525;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#resultado p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 8px;
+    text-align: left;
+}
