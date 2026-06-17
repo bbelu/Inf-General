@@ -1,0 +1,1 @@
+console.log("¡Archivo script.js correctamente vinculado!");
