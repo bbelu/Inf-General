@@ -12,5 +12,21 @@ function organizarCena (){
     If ( eleccion=== null){
         eleccion="";
     }
+    while(eleccion!=="pasta" && eleccion !=="pollo" && eleccion !="ensalada"){
+        eleccion = prompt("Opción inválida. Invitado " + i + ": Elija únicamente entre 'pasta', 'pollo' o 'ensalada':");
+            if (eleccion === null) {
+                eleccion = "";}    
+            
+            }
+
+    if (eleccion=== "pasta"){
+        contPasta++;
+        
+    }else if(eleccion=== "pollo"){
+        contPollo++
+    }else if (eleccion === "ensalada"){
+        contEnsalada++
+    }
+
 
 }
